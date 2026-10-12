@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: discord-movie-streamer
+    name: discord-stream-bot
     env: node
     buildCommand: npm install
     startCommand: npm start
     envVars:
       - key: NODE_VERSION
-        value: 18.0.0
+        value: 18.17.0
